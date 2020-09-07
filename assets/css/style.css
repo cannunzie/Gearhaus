@@ -2538,7 +2538,7 @@ p {
   .single-features .features-title-icon .features-title a {
     font-size: 36px;
     line-height: 45px;
-    color: #121212;
+    /*color: #121212;*/
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -2575,7 +2575,7 @@ p {
   .single-features .features-content .text {
     font-size: 14px;
     line-height: 20px;
-    color: #121212;
+    /*color: #121212;*/
     margin-top: 16px; }
   .single-features .features-content .features-btn {
     color: #0067f4;
@@ -3245,3 +3245,42 @@ p.form-message.success, p.form-message.error {
     background-color: #0067f4; }
 
 /*# sourceMappingURL=style.css.map */
+
+/*======= colour palette =======*/
+/*
+dark grey: #444444
+blue: #2D448B
+light grey: #B4B4BB
+
+
+/*===== CUSTOM CSS =====*/
+.made-in-canada {
+  background-color: #444444;
+  padding-left: 40;
+}
+.made-in-canada a, .made-in-canada p {
+  color: #B4B4BB
+}
+.quality-workmanship{
+  background-color: #b4b4bb
+}
+.quality-workmanship a, .quality-workmanship p {
+  color: #444444
+}
+.div-right{
+  background-color: #2D448B
+}
+.div-right a, .div-right p {
+  color: #B4B4BB
+}
+
+#services{
+  background-image: url('../images/servicesTest.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#services h3 {
+  color: #B4B4BB;
+} 
