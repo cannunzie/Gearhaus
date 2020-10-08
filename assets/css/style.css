@@ -3275,12 +3275,24 @@ light grey: #B4B4BB
 }
 
 #services{
-  background-image: url('../images/servicesTest.jpg');
+  background-image: url('../images/actual-images/paralax-picture-behind-about-gearhaus.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
+.div-shadow{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 #services h3 {
   color: #B4B4BB;
 } 
+
+ .div-shadow .section-title .text{
+  color: #B4B4BB;
+ }
+
+.service-list li{
+  color: #B4B4BB;
+}
