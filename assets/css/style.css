@@ -42,6 +42,9 @@ textarea:focus,
 button:focus {
   text-decoration: none;
   outline: none; }
+  button:hover {
+    color: white;
+  }
 
 a:focus,
 a:hover {
@@ -60,7 +63,7 @@ h5,
 h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  color: #121212;
+  color: #a8a8a8;
   margin: 0px; }
 
 h1 {
@@ -108,7 +111,6 @@ p {
 .section-title .title {
   font-size: 44px;
   font-weight: 600;
-  color: #121212;
   line-height: 55px; }
   @media (max-width: 767px) {
     .section-title .title {
@@ -117,7 +119,6 @@ p {
 .section-title .text {
   font-size: 16px;
   line-height: 24px;
-  color: #6c6c6c;
   margin-top: 24px; }
 
 /*===== All Preloader Style =====*/
@@ -407,6 +408,10 @@ p {
       font-size: 24px;
       line-height: 35px; } }
 
+.main-btn:hover{
+  color: white;
+}
+
 .main-btn {
   display: inline-block;
   font-weight: 700;
@@ -587,11 +592,11 @@ p {
     color: #0067f4;
     background-color: rgba(0, 103, 244, 0.4); }
 .light-rounded-buttons .light-rounded-two {
-  color: #fff;
-  background-color: #0067f4;
-  border-color: #0067f4; }
+  color: #a8a8a8;
+  background-color: #1a1a1a;
+  border-color: #1a1a1a; }
   .light-rounded-buttons .light-rounded-two:hover {
-    color: #0067f4;
+    color: #1a1a1a;
     background-color: transparent; }
 .light-rounded-buttons .light-rounded-three {
   overflow: hidden;
@@ -2231,7 +2236,7 @@ p {
         line-height: 24px;
         font-weight: 700;
         padding: 26px 0;
-        color: #fff;
+        color: #a8a8a8;
         text-transform: uppercase;
         position: relative;
         opacity: 0.8;
@@ -2354,14 +2359,15 @@ p {
     .navbar-area.sticky .navbar .navbar-btn li a.solid {
       border-color: #0067f4;
       background-color: #0067f4;
-      color: #fff; }
+      color: #a8a8a8 }
 
 /*===========================
        10.SLIDER css 
 ===========================*/
 .carousel-item {
-  background-color: #0067f4;
+  background-color: #1a1a1a;
   position: relative; }
+  /*
   .carousel-item::before {
     position: absolute;
     content: '';
@@ -2390,6 +2396,7 @@ p {
     @media only screen and (min-width: 576px) and (max-width: 767px) {
       .carousel-item::before {
         right: 25%; } }
+        */
   .carousel-item .slider-image-box {
     position: absolute;
     top: 0;
@@ -2398,8 +2405,11 @@ p {
     height: 100%;
     z-index: 9; }
     .carousel-item .slider-image-box .slider-image {
-      max-width: 680px;
-      width: 100%; }
+      max-width: 540px;
+      width: 100%;
+      background-image: url('../images/actual-images/top-slider-pic1.jpg');
+      background-repeat: no-repeat;    
+    }
 
 .slider-content {
   position: relative;
@@ -2413,7 +2423,7 @@ p {
   .slider-content .title {
     font-size: 88px;
     line-height: 96px;
-    color: #fff;
+    color: #a8a8a8;
     font-weight: 700; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .slider-content .title {
@@ -2428,7 +2438,7 @@ p {
         font-size: 34px;
         line-height: 45px; } }
   .slider-content .text {
-    color: #fff;
+    color: #a8a8a8;
     font-size: 16px;
     line-height: 24px;
     margin-top: 16px; }
@@ -2528,9 +2538,22 @@ p {
 ===========================*/
 /*===== features TWO =====*/
 .features-area {
-  background-color: #f4f6f7;
   padding-top: 120px;
   padding-bottom: 130px; }
+
+.light-text {
+  color: #a8a8a8;
+}
+.background-light {
+  background-color: #a8a8a8;
+}
+
+.dark-text {
+    color: #1a1a1a;
+}
+.background-dark {
+  background-color: #1a1a1a;
+}
 
 .single-features {
   padding: 40px 20px 52px;
@@ -3103,8 +3126,7 @@ p {
 .contact-area {
   padding-top: 120px;
   padding-bottom: 130px;
-  background-color: #f4f6f7; }
-
+}
 p.form-message.success, p.form-message.error {
   font-size: 16px;
   color: #333;
@@ -3159,15 +3181,13 @@ p.form-message.success, p.form-message.error {
 ===========================*/
 /*===== FOOTER FIVE =====*/
 .footer-area {
-  background-color: #f4f6f7;
-  padding-top: 90px;
-  padding-bottom: 120px; }
+  padding-top: 45px;
+  padding-bottom: 600px; }
   .footer-area .social li {
     display: inline-block;
     margin: 0 5px; }
     .footer-area .social li a {
       font-size: 24px;
-      color: #6c6c6c;
       -webkit-transition: all 0.3s ease-out 0s;
       -moz-transition: all 0.3s ease-out 0s;
       -ms-transition: all 0.3s ease-out 0s;
@@ -3203,27 +3223,15 @@ p.form-message.success, p.form-message.error {
       @media only screen and (min-width: 576px) and (max-width: 767px) {
         .footer-area .footer-app-store ul li {
           width: auto; } }
-  .footer-area .copyright .text {
-    color: #121212; }
-  .footer-area.footer-dark {
-    background-color: #121212; }
-    .footer-area.footer-dark .social li a {
-      color: #fff; }
     .footer-area.footer-dark .footer-support {
       padding-top: 21px; }
-      .footer-area.footer-dark .footer-support span {
-        color: #fff; }
     .footer-area.footer-dark .footer-app-store {
       padding-top: 27px; }
-      .footer-area.footer-dark .footer-app-store ul li {
-        color: #fff; }
-    .footer-area.footer-dark .copyright .text {
-      color: #fff; }
 
 /*===== BACK TO TOP =====*/
 .back-to-top {
   font-size: 20px;
-  color: #fff;
+  color: #1f1f1f;
   position: fixed;
   right: 20px;
   bottom: 20px;
@@ -3231,7 +3239,7 @@ p.form-message.success, p.form-message.error {
   height: 45px;
   line-height: 45px;
   border-radius: 5px;
-  background-color: #0067f4;
+  background-color:#a8a8a8;
   text-align: center;
   z-index: 99;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -3241,8 +3249,7 @@ p.form-message.success, p.form-message.error {
   transition: all 0.3s ease-out 0s;
   display: none; }
   .back-to-top:hover {
-    color: #fff;
-    background-color: #0067f4; }
+    color: #fff;}
 
 /*# sourceMappingURL=style.css.map */
 
@@ -3254,45 +3261,6 @@ light grey: #B4B4BB
 
 
 /*===== CUSTOM CSS =====*/
-.made-in-canada {
-  background-color: #444444;
-  padding-left: 40;
-}
-.made-in-canada a, .made-in-canada p {
-  color: #B4B4BB
-}
-.quality-workmanship{
-  background-color: #b4b4bb
-}
-.quality-workmanship a, .quality-workmanship p {
-  color: #444444
-}
-.div-right{
-  background-color: #2D448B
-}
-.div-right a, .div-right p {
-  color: #B4B4BB
-}
-
-#services{
-  background-image: url('../images/actual-images/paralax-picture-behind-about-gearhaus.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-.div-shadow{
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
-#services h3 {
-  color: #B4B4BB;
-} 
-
- .div-shadow .section-title .text{
-  color: #B4B4BB;
- }
-
-.service-list li{
-  color: #B4B4BB;
+td, th {
+  color: #a8a8a8;
 }
