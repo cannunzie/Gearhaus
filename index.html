@@ -3,41 +3,45 @@
 
 <head>
     <meta charset="utf-8">
-    
+
     <!--====== Title ======-->
-    <title>Smash - Bootstrap Business Template</title>
-    
+    <title>Gearhaus Machine Works</title>
+
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
-        
+
     <!--====== Magnific Popup CSS ======-->
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
-        
+
     <!--====== Slick CSS ======-->
     <link rel="stylesheet" href="assets/css/slick.css">
-        
+
     <!--====== Line Icons CSS ======-->
     <link rel="stylesheet" href="assets/css/LineIcons.css">
-        
+
     <!--====== Bootstrap CSS ======-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    
+
     <!--====== Default CSS ======-->
     <link rel="stylesheet" href="assets/css/default.css">
-    
+
     <!--====== Style CSS ======-->
     <link rel="stylesheet" href="assets/css/style.css">
-    
+
+    <!--====== Splash CSS ======-->
+    <link rel="stylesheet" href="assets/css/splash.css">
+
+    <script src="https://kit.fontawesome.com/9b40f00064.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-   
+
     <!--====== PRELOADER PART START ======-->
 
     <div class="preloader">
@@ -58,7 +62,7 @@
     </div>
 
     <!--====== PRELOADER PART ENDS ======-->
-    
+
     <!--====== NAVBAR TWO PART START ======-->
 
     <section class="navbar-area">
@@ -66,12 +70,13 @@
             <div class="row">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg">
-                       
+
                         <a class="navbar-brand" href="#">
                             <img src="assets/images/actual-images/GEARHAUS-logo-final-white-web.png" alt="Logo">
                         </a>
-                        
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTwo" aria-controls="navbarTwo" aria-expanded="false" aria-label="Toggle navigation">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTwo"
+                            aria-controls="navbarTwo" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="toggler-icon"></span>
                             <span class="toggler-icon"></span>
                             <span class="toggler-icon"></span>
@@ -92,72 +97,21 @@
     </section>
 
     <!--====== NAVBAR TWO PART ENDS ======-->
-    
-    <!--====== SLIDER PART START ======-->
 
-    <section id="home" class="slider_area">
-        <div id="carouselThree" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselThree" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselThree" data-slide-to="1"></li>
-                <li data-target="#carouselThree" data-slide-to="2"></li>
-            </ol>
-
-            <div class="carousel-inner">
-                <div class="carousel-item active item-1">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="slider-content">
-                                    <h1 class="title">Made in Canada</h1>
-                                    <p class="text">All of our products are proudly manufactured in-house or in partnership with other local businesses.</p>
-                                </div> <!-- slider-content -->
-                            </div>
-                        </div> <!-- row -->
-                    </div> <!-- container -->
-                    <div class="slider-image-box d-none d-lg-flex align-items-center">
-                        <div class="slider-image">
-                            <img src="assets/images/actual-images/canada.jpg" alt="Hero"> 
-                        </div>
+    <!--====== SPLASH PAGE START ======-->
+    <section id="home">
+        <div class="container-fluid light-text">
+            <div class="row align-items-center justify-content-center vh-100 background-dark light-text">
+                <div class="scroller">
+                    <div class="inner">
+                        <span>Welcome to Gearhaus.</span>
+                        <span>A company of simplicity.</span>
+                        <span>We cut out all the bullshit.</span>
+                        <span>Let's <a class="orange">get</a> <a class="orange2">started</a>.</span>
                     </div>
-                </div> <!-- carousel-item -->
-
-                <div class="carousel-item item-2">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="slider-content">
-                                    <h1 class="title">Transparency with Clients</h1>
-                                    <p class="text">Gearhaus Machine Works takes pride in providing accurate and detailed information 
-                                        about our products and services.</p>
-                                </div>
-                            </div>
-                        </div> <!-- row -->
-                    </div> <!-- container -->
-<!--slider box 2-->
-                </div> <!-- carousel-item -->
-
-                <div class="carousel-item item-3">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="slider-content">
-                                    <h1 class="title">Dedication to Quality</h1>
-                                    <p class="text">We are passionate about the work we do. Stringent quality controls 
-                                        are employed to ensure each project is completed to specification.</p>
-                                </div> <!-- slider-content -->
-                            </div>
-                        </div> <!-- row -->
-                    </div> <!-- container -->
-<!--Slide box 3-->
+                </div>
+                <a id="splash-caret" class="page-scroll" href="#about"><i class="fas fa-chevron-down caret-animation"></i></a>
             </div>
-
-            <a class="carousel-control-prev" href="#carouselThree" role="button" data-slide="prev">
-                <i class="lni lni-arrow-left"></i>
-            </a>
-            <a class="carousel-control-next" href="#carouselThree" role="button" data-slide="next">
-                <i class="lni lni-arrow-right"></i>
-            </a>
         </div>
     </section>
 
@@ -166,78 +120,93 @@
     <!--====== ABOUT US START ======-->
 
     <section id="about" class="features-area background-light">
-        <div class="container-fluid"></div>
+        <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-10">
                     <div class="section-title text-center pb-10">
-                        <h3 class="title dark-text">Welcome to Our Shop</h3>
-                        <p class="text dark-text">Gearhaus Machine Works is a Calgary based machining and repair shop 
+                        <h3 class="title light-title">Who We Are</h3>
+                        <!--<p class="text dark-text">Gearhaus Machine Works is a Calgary based machining and repair shop 
                             catering to small businesses and hobbyists alike. Looking for a hard to find 
                             part? We can help you design and machine it. Need repairs done on shop equipment? 
-                            Our team has experience with a wide range of machinery.</p>
+                            Our team has experience with a wide range of machinery.</p>-->
                     </div> <!-- row -->
+
+
+
                 </div>
             </div>
+            <div class="row justify-content-space-around px-5 mt-5">
+                <div class="col-md-4 about-thumbnails">
+                    <div class="overlayed">
+                        <img src="assets/images/actual-images/commitment-to-qualitybw.jpg" alt="about gearhaus">
+                    </div>
+                    <img src="assets/images/actual-images/commitment-to-quality.jpg" alt="about gearhaus">
+                    <span>The Basics</span>
+                    <p class="mt-30">Gearhaus Machine Works is a Calgary based machining and repair shop
+                        catering to small businesses and hobbyists alike. Looking for a hard to find
+                        part? We can help you design and machine it. Need repairs done on shop equipment?
+                        Our team has experience with a wide range of machinery.</p>
+                </div>
+                <div class="col-md-4 about-thumbnails">
+                    <div class="overlayed">
+                        <img src="assets/images/actual-images/commitment-to-qualitybw.jpg" alt="about gearhaus">
+                    </div>
+                    <img src="assets/images/actual-images/commitment-to-quality.jpg" alt="about gearhaus">
+                    <span>Commitment to Quality</span>
+                    <p class="mt-30">Keep this paragraph to ~ 3-5 lines.<br>2<br>3<br>4<br>5</p>
+                </div>
+                <div class="col-md-4 about-thumbnails">
+                    <div class="overlayed">
+                        <img src="assets/images/actual-images/fake-or-factbw.jpg" alt="about gearhaus">
+                    </div>
+                    <img src="assets/images/actual-images/fake-or-fact.jpg" alt="about gearhaus">
+                    <span>Straightforward Approach</span>
+                    <p class="mt-30">Keep this paragraph to ~ 3-5 lines.<br>2<br>3</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!--====== ABOUT US ENDS ======-->
-    
-    <!--====== SERVICES PART START ======-->
 
+    <!--====== SERVICES PART START ======-->
     <section id="services" class="features-area background-dark">
         <div class="container">
-            <div class="row justify-content-left">
-                <div class="col-lg-6 col-md-10 div-shadow">
-                    <div class="section-title pb-10">
-                        <h3 class="title light-text">Services</h3>
-                        <p class="text light-text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
-                    </div> <!-- row -->
-                    <div class="service-list">
-                        <table class="tg">
-                            <thead>
-                              <tr>
-                                <td class="tg-0lax">Machining and Repair Service</td>
-                                <td class="tg-0lax"></td>                                
-                              </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th class="tg-0lax">Turning and Milling</th>
-                                    <th class="tg-0lax">$50/hour</th>
-                                </tr>
-                                <tr>
-                                    <td class="tg-0lax">CAD Design</td>
-                                    <td class="tg-0lax">$35/hour</td>
-                                </tr>                              
-                            </tbody>
-                            </table>
-                            <table class="tg">
-                                <thead>
-                                  <tr>
-                                    <td class="tg-0lax">Machine Labour</td>
-                                    <td class="tg-0lax"></td>                                
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th class="tg-0lax">Disassembly</th>
-                                        <th class="tg-0lax">$25/hour</th>
-                                    </tr>
-                                    <tr>
-                                        <td class="tg-0lax">Assembly</td>
-                                        <td class="tg-0lax">$35/hour</td>
-                                    </tr>                              
-                                </tbody>
-                                </table>
-                    </div>
-                </div>
+            <div class="section-title pb-10 justify-content-center">
+                <h3 class="title dark-title">Services</h3>
+                <p class="text light-text">Stop wasting time and money designing and managing a website that doesn’t get
+                    results. Happiness guaranteed!</p>
             </div> <!-- row -->
-
-        </div> <!-- container -->
+            <div class="flex-container light-text">
+                <div class="services-item">
+                    <h3><img src="assets/images/actual-images/lathe-vector.png"></h3>
+                    <span class="service-heading">MACHINING</span>
+                </div>
+                <div class="services-item">
+                    <h3><img src="assets/images/actual-images/cad-design-vector.png"></h3>
+                    <span>CAD DESIGN</span>
+                </div>
+                <div class="services-item">
+                    <h3><img src="assets/images/actual-images/machine-repair-vector.png"></h3>
+                    <span>MACHINE REPAIR</span>
+                </div>
+                <div class="services-item">
+                    <h3><img src="assets/images/actual-images/caliper-vector.png"></h3>
+                    <span>BLUE PRINTING</span>
+                </div>
+                <div class="services-item">
+                    <h3><img src="assets/images/actual-images/torch-vector.png"></h3>
+                    <span>FABRICATION</span>
+                </div>
+                <div class="services-item">
+                    <h3><img src="assets/images/actual-images/powder-coat-vector.png"></h3>
+                    <span>POWDER COATING</span>
+                </div>
+            </div>
+        </div>
     </section>
-
     <!--====== SERVICES PART ENDS ======-->
-    
+
     <!--====== CONTACT PART START ======-->
 
     <section id="contact" class="contact-area background-light">
@@ -245,16 +214,18 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 col-md-10">
                     <div class="section-title text-center pb-30">
-                        <h3 class="title">Contact</h3>
-                        <p class="text">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+                        <h3 class="title light-title">Contact</h3>
+                        <p class="text">Stop wasting time and money designing and managing a website that doesn’t get
+                            results. Happiness guaranteed!</p>
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
             <div class="row">
                 <div class="col-lg-12">
                     <div class="contact-wrapper form-style-two pt-115">
-                        <h4 class="contact-title pb-10"><i class="lni lni-envelope"></i> Leave <span>A Message.</span></h4>
-                        
+                        <h4 class="contact-title pb-10"><i class="lni lni-envelope"></i> Leave <span>A Message.</span>
+                        </h4>
+
                         <form id="contact-form" action="assets/contact.php" method="post">
                             <div class="row">
                                 <div class="col-md-6">
@@ -299,13 +270,14 @@
     </section>
 
     <!--====== CONTACT PART ENDS ======-->
-    
+
     <!--====== FOOTER PART START ======-->
 
     <section class="footer-area footer-dark background-dark">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-6"><!--
+                <div class="col-lg-6">
+                    <!--
                     <div class="footer-logo text-center">
                         <a class="mt-30" href="index.html"><img src="assets/images/logo.svg" alt="Logo"></a>
                     </div>
@@ -329,16 +301,16 @@
     </section>
 
     <!--====== FOOTER PART ENDS ======-->
-    
+
     <!--====== BACK TOP TOP PART START ======-->
 
     <a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
 
-    <!--====== BACK TOP TOP PART ENDS ======-->    
+    <!--====== BACK TOP TOP PART ENDS ======-->
 
     <!--====== PART START ======-->
 
-<!--
+    <!--
     <section class="">
         <div class="container">
             <div class="row">
@@ -358,31 +330,31 @@
     <!--====== Jquery js ======-->
     <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
     <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
-    
+
     <!--====== Bootstrap js ======-->
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    
+
     <!--====== Slick js ======-->
     <script src="assets/js/slick.min.js"></script>
-    
+
     <!--====== Magnific Popup js ======-->
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    
+
     <!--====== Ajax Contact js ======-->
     <script src="assets/js/ajax-contact.js"></script>
-    
+
     <!--====== Isotope js ======-->
     <script src="assets/js/imagesloaded.pkgd.min.js"></script>
     <script src="assets/js/isotope.pkgd.min.js"></script>
-    
+
     <!--====== Scrolling Nav js ======-->
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/scrolling-nav.js"></script>
-    
+
     <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>
-    
+
 </body>
 
 </html>

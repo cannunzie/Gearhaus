@@ -1,0 +1,199 @@
+.scroller {
+    height: 50px;
+    line-height: 50px;
+    margin-left: 5px;
+    overflow: hidden;
+  }
+  .scroller span {
+    display: block;
+    font-size: 200%;
+  }
+  .scroller .inner {
+    -webkit-animation: scroll 10s 1 ease-out;
+    -moz-animation: scroll 10s 1 ease-out;
+    animation: scroll 10s 1 ease-out;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .orange {
+    -webkit-animation: color 0.25s 1 linear;
+    -moz-animation: color 0.25s 1 linear;
+    animation: color 0.25s 1 linear;
+    -webkit-animation-delay: 8s;
+    -moz-animation-delay: 8s;
+    animation-delay: 8s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .orange2 {
+    -webkit-animation: color 0.25s 1 linear;
+    -moz-animation: color 0.25s 1 linear;
+    animation: color 0.25s 1 linear;
+    -webkit-animation-delay: 8.25s;
+    -moz-animation-delay: 8.25s;
+    animation-delay: 8.25s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  .orange-caret{
+    -webkit-animation: color 0.25s 1 linear;
+    -moz-animation: color 0.25s 1 linear;
+    animation: color 0.25s 1 linear;
+    -webkit-animation-delay: 10s;
+    -moz-animation-delay: 10s;
+    animation-delay: 10s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  #splash-caret{
+    font-size: 200%;
+    top: 100vh;
+    position: absolute;
+    animation: mymove 2s ease 8s normal forwards;
+    opacity: 0;
+  }
+  
+  @keyframes mymove {
+    0% {
+      top: 100vh;
+    }
+    100% {
+      top: 80vh;
+      opacity: 1;
+      color: #f9a61c;
+    }
+  }
+
+  @-webkit-keyframes mymove {
+    0% {
+      top: 100vh;
+    }
+    100% {
+      top: 80vh;
+      opacity: 1;
+      color: #f9a61c;
+    }
+  }
+
+  @-moz-keyframes mymove {
+    from {top: 100vh; opacity: 0;color: #a8a8a8;}
+    to {top: 80vh; opacity: 1;color: #f9a61c}
+  }
+
+  @-webkit-keyframes color {
+    0% {
+      color: #a8a8a8;
+    }
+    100% {
+      color: #f9a61c;
+    }
+  }
+  @-moz-keyframes color {
+    0% {
+      color: #a8a8a8;
+    }
+    100% {
+      color: #f9a61c;
+    }
+  }
+  @keyframes color {
+    0% {
+      color: #a8a8a8;
+    }
+    100% {
+      color: #f9a61c;
+    }
+  }
+  @-webkit-keyframes scroll {
+    11% {
+      margin-top: 0px;
+    }
+    22% {
+      margin-top: 0px;
+    }
+    33% {
+      margin-top: -50px;
+    }
+    44% {
+      margin-top: -50px;
+    }
+    55% {
+      margin-top: -100px;
+    }
+    66% {
+      margin-top: -100px;
+    }
+    77% {
+      margin-top: -150px;
+    }
+    88% {
+      margin-top: -150px;
+    }
+    100% {
+      margin-top: -150px;
+    }
+  }
+  @-moz-keyframes scroll {
+    11% {
+      margin-top: 0px;
+    }
+    22% {
+      margin-top: 0px;
+    }
+    33% {
+      margin-top: -50px;
+    }
+    44% {
+      margin-top: -50px;
+    }
+    55% {
+      margin-top: -100px;
+    }
+    66% {
+      margin-top: -100px;
+    }
+    77% {
+      margin-top: -150px;
+    }
+    88% {
+      margin-top: -150px;
+    }
+    100% {
+      margin-top: -150px;
+    }
+  }
+  @keyframes scroll {
+    11% {
+      margin-top: 0px;
+    }
+    22% {
+      margin-top: 0px;
+    }
+    33% {
+      margin-top: -50px;
+    }
+    44% {
+      margin-top: -50px;
+    }
+    55% {
+      margin-top: -100px;
+    }
+    66% {
+      margin-top: -100px;
+    }
+    77% {
+      margin-top: -150px;
+    }
+    88% {
+      margin-top: -150px;
+    }
+    100% {
+      margin-top: -150px;
+    }
+  }
