@@ -195,11 +195,11 @@ $(function() {
     
 
     //Custom js
-/*
+
     $('#splash-caret').on('click', function(){
-        $('#home').delay(3000).hide();
+        $('#home').delay(1500).hide(0);
     })
-  */  
+  
     
     
     
