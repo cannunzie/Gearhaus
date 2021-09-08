@@ -193,7 +193,13 @@ $(function() {
     
     //===== 
     
-    
+
+    //Custom js
+/*
+    $('#splash-caret').on('click', function(){
+        $('#home').delay(3000).hide();
+    })
+  */  
     
     
     
