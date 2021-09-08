@@ -36,10 +36,6 @@ body {
   box-sizing: border-box; }
 
 
-.carousel-item{border: 1px solid red;}
-.slider-image-box{border:1px solid red;}
-
-
 img {
   max-width: 100%; }
 
@@ -2183,14 +2179,12 @@ p {
   padding: 10px 0;
   z-index: 99; }
   .navbar-area .navbar {
-	  border:1px solid red;
     position: relative;
     padding: 0; }
     .navbar-area .navbar .navbar-toggler .toggler-icon {
       width: 33px;
       height: 5px;
       background-color: #fff;
-		border:1px solid red;
       margin: 6px 0;
       display: block;
       position: relative;
@@ -3376,3 +3370,8 @@ td, th {
 }
 
 @media (min-width:1600px){.container{max-width:1540px}}
+
+/*Custom css (Caleb)*/
+.navbar-brand img{
+  max-height: 60px;
+}
